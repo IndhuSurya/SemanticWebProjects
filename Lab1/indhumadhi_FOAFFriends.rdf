@@ -1,0 +1,39 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Indhumadhi Suryanarayanan</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Indhumadhi</foaf:givenname>
+<foaf:family_name>Suryanarayanan</foaf:family_name>
+<foaf:nick>Indhu</foaf:nick>
+<foaf:mbox rdf:resource="mailto:ixs150630@utdallas.edu"/>
+<foaf:homepage rdf:resource="http://www.utdallas.edu/"/>
+<foaf:depiction rdf:resource="http://jindal.utdallas.edu/the-utd-top-100-business-school-research-rankings/images/utd_logo.png"/>
+<foaf:phone rdf:resource="tel:4696643674"/>
+<foaf:workplaceHomepage rdf:resource="http://www.utdallas.edu/current/"/>
+<foaf:workInfoHomepage rdf:resource="I am student at Te University of Texas at Dallas"/>
+<foaf:schoolHomepage rdf:resource="Kendriya Vidhyalaya"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>ABCDE</foaf:name>
+<foaf:mbox rdf:resource="mailto:abcde@gmail.com"/>
+<rdfs:seeAlso rdf:resource="http://www.utdallas.edu/faculty/"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>FEGHIJ</foaf:name>
+<foaf:mbox rdf:resource="mailto:feghi@utdallas.edu"/>
+<rdfs:seeAlso rdf:resource="https://alumni.utdallas.edu/"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>KLMNOPQRST</foaf:name>
+<foaf:mbox rdf:resource="mailto:klmn@gmail.com"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

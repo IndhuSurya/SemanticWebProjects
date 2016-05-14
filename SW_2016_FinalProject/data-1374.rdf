@@ -1,0 +1,2358 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dgtwc="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns="http://data-gov.tw.rpi.edu/vocab/p/1374/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://data-gov.tw.rpi.edu/raw/1374/data-1374.rdf" > 
+  <rdf:Description rdf:about="#entry202">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>6-Feb-09</closing_date>
+    <cert>57017</cert>
+    <state>GA</state>
+    <city>McDonough</city>
+    <bank_name>FirstBank Financial Services</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry126">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>28-Aug-09</closing_date>
+    <cert>1909</cert>
+    <state>MN</state>
+    <city>Forest Lake</city>
+    <bank_name>Mainstreet Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry193">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>27-Feb-09</closing_date>
+    <cert>34820</cert>
+    <state>NV</state>
+    <city>Henderson</city>
+    <bank_name>Security Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry251">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Feb-02</closing_date>
+    <cert>22314</cert>
+    <state>AZ</state>
+    <city>Phoenix</city>
+    <bank_name>NextBank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry169">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>19-Jun-09</closing_date>
+    <cert>4614</cert>
+    <state>KS</state>
+    <city>Anthony</city>
+    <bank_name>First National Bank of Anthony</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry136">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>14-Aug-09</closing_date>
+    <cert>31559</cert>
+    <state>PA</state>
+    <city>Pittsburgh</city>
+    <bank_name>Dwelling House Savings and Loan Association</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry155">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>17-Jul-09</closing_date>
+    <cert>34594</cert>
+    <state>GA</state>
+    <city>Winder</city>
+    <bank_name>First Piedmont Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry116">
+    <updated_date>22-Sep-09</updated_date>
+    <closing_date>18-Sep-09</closing_date>
+    <cert>10100</cert>
+    <state>IN</state>
+    <city>Columbus</city>
+    <bank_name>Irwin Union Bank and Trust Company</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry241">
+    <updated_date>22-Jul-05</updated_date>
+    <closing_date>14-Nov-03</closing_date>
+    <cert>27203</cert>
+    <state>PA</state>
+    <city>Philadelphia</city>
+    <bank_name>Pulaski Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry212">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Nov-08</closing_date>
+    <cert>28344</cert>
+    <state>CA</state>
+    <city>Pomona</city>
+    <bank_name>PFF Bank &amp; Trust</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry231">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>9-May-08</closing_date>
+    <cert>33901</cert>
+    <state>AR</state>
+    <city>Bentonville</city>
+    <bank_name>ANB Financial, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry106">
+    <updated_date>29-Oct-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>35044</cert>
+    <state>FL</state>
+    <city>Bradenton</city>
+    <bank_name>Flagship National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry141">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Jul-09</closing_date>
+    <cert>34270</cert>
+    <state>NJ</state>
+    <city>Elizabeth</city>
+    <bank_name>First BankAmericano</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry222">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>19-Sep-08</closing_date>
+    <cert>6782</cert>
+    <state>WV</state>
+    <city>Northfork</city>
+    <bank_name>Ameribank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry127">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>28-Aug-09</closing_date>
+    <cert>28312</cert>
+    <state>MD</state>
+    <city>Baltimore</city>
+    <bank_name>Bradford Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry201">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>6-Feb-09</closing_date>
+    <cert>23124</cert>
+    <state>CA</state>
+    <city>Culver City</city>
+    <bank_name>Alliance Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry252">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>1-Feb-02</closing_date>
+    <cert>8966</cert>
+    <state>OH</state>
+    <city>Oakwood</city>
+    <bank_name>Oakwood Deposit Bank Co.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry192">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>6-Mar-09</closing_date>
+    <cert>57558</cert>
+    <state>GA</state>
+    <city>Commerce</city>
+    <bank_name>Freedom Bank of Georgia</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry168">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>26-Jun-09</closing_date>
+    <cert>57436</cert>
+    <state>GA</state>
+    <city>Villa Rica</city>
+    <bank_name>Community Bank of West Georgia</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry137">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Aug-09</closing_date>
+    <cert>23268</cert>
+    <state>OR</state>
+    <city>Prineville</city>
+    <bank_name>Community First Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry211">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>5-Dec-08</closing_date>
+    <cert>34301</cert>
+    <state>GA</state>
+    <city>Jackson</city>
+    <bank_name>First Georgia Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry117">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>11-Sep-09</closing_date>
+    <cert>22868</cert>
+    <state>WA</state>
+    <city>Lacey</city>
+    <bank_name>Venture Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry154">
+    <updated_date>2-Apr-10</updated_date>
+    <closing_date>17-Jul-09</closing_date>
+    <cert>34103</cert>
+    <state>SD</state>
+    <city>Sioux Falls</city>
+    <bank_name>BankFirst</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry242">
+    <updated_date>6-Aug-09</updated_date>
+    <closing_date>9-May-03</closing_date>
+    <cert>11639</cert>
+    <state>WI</state>
+    <city>Blanchardville</city>
+    <bank_name>First National Bank of Blanchardville</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry140">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Jul-09</closing_date>
+    <cert>18659</cert>
+    <state>IL</state>
+    <city>Harvey</city>
+    <bank_name>Mutual Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry107">
+    <updated_date>28-Oct-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>58336</cert>
+    <state>FL</state>
+    <city>Naples</city>
+    <bank_name>Hillcrest Bank Florida</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry221">
+    <updated_date>1-Apr-10</updated_date>
+    <closing_date>25-Sep-08</closing_date>
+    <cert>32633</cert>
+    <state>NV</state>
+    <city>Henderson</city>
+    <bank_name>Washington Mutual Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry232">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Mar-08</closing_date>
+    <cert>1971</cert>
+    <state>MO</state>
+    <city>Hume</city>
+    <bank_name>Hume Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry50">
+    <updated_date>24-Feb-10</updated_date>
+    <closing_date>19-Feb-10</closing_date>
+    <cert>29952</cert>
+    <state>IL</state>
+    <city>Orland Park</city>
+    <bank_name>George Washington Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry31">
+    <updated_date>5-Apr-10</updated_date>
+    <closing_date>26-Mar-10</closing_date>
+    <cert>57399</cert>
+    <state>GA</state>
+    <city>Carrollton</city>
+    <bank_name>McIntosh Commercial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry195">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>20-Feb-09</closing_date>
+    <cert>35399</cert>
+    <state>OR</state>
+    <city>Silverton</city>
+    <bank_name>Silver Falls Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry138">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Aug-09</closing_date>
+    <cert>27183</cert>
+    <state>FL</state>
+    <city>Venice</city>
+    <bank_name>Community National Bank of Sarasota County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry153">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>17-Jul-09</closing_date>
+    <cert>23556</cert>
+    <state>CA</state>
+    <city>Rancho Cucamonga</city>
+    <bank_name>Vineyard Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry210">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>12-Dec-08</closing_date>
+    <cert>35379</cert>
+    <state>GA</state>
+    <city>Duluth</city>
+    <bank_name>Haven Trust Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry118">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>11-Sep-09</closing_date>
+    <cert>57736</cert>
+    <state>MN</state>
+    <city>Woodbury</city>
+    <bank_name>Brickwell Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry243">
+    <updated_date>20-Oct-08</updated_date>
+    <closing_date>7-Feb-03</closing_date>
+    <cert>27094</cert>
+    <state>CA</state>
+    <city>Torrance</city>
+    <bank_name>Southern Pacific Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry124">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>4-Sep-09</closing_date>
+    <cert>25231</cert>
+    <state>MO</state>
+    <city>Kansas City</city>
+    <bank_name>First Bank of Kansas City</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry204">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>30-Jan-09</closing_date>
+    <cert>30763</cert>
+    <state>MD</state>
+    <city>Crofton</city>
+    <bank_name>Suburban FSB</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry224">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>29-Aug-08</closing_date>
+    <cert>35469</cert>
+    <state>GA</state>
+    <city>Alpharetta</city>
+    <bank_name>Integrity Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry104">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>57525</cert>
+    <state>MN</state>
+    <city>Otsego</city>
+    <bank_name>Riverview Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry143">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Jul-09</closing_date>
+    <cert>57604</cert>
+    <state>FL</state>
+    <city>Jupiter</city>
+    <bank_name>Integrity Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry250">
+    <updated_date>9-Apr-08</updated_date>
+    <closing_date>1-Mar-02</closing_date>
+    <cert>26652</cert>
+    <state>FL</state>
+    <city>Boca Raton</city>
+    <bank_name>Net 1st National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry30">
+    <updated_date>31-Mar-10</updated_date>
+    <closing_date>26-Mar-10</closing_date>
+    <cert>34684</cert>
+    <state>FL</state>
+    <city>Key West</city>
+    <bank_name>Key West Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry194">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>27-Feb-09</closing_date>
+    <cert>20078</cert>
+    <state>IL</state>
+    <city>Glenwood</city>
+    <bank_name>Heritage Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry70">
+    <updated_date>23-Dec-09</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>26348</cert>
+    <state>CA</state>
+    <city>La Jolla</city>
+    <bank_name>Imperial Capital Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry139">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Aug-09</closing_date>
+    <cert>27364</cert>
+    <state>FL</state>
+    <city>Sarasota</city>
+    <bank_name>First State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry152">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>17-Jul-09</closing_date>
+    <cert>34341</cert>
+    <state>CA</state>
+    <city>Temecula</city>
+    <bank_name>Temecula Valley Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry244">
+    <updated_date>20-Oct-04</updated_date>
+    <closing_date>17-Dec-02</closing_date>
+    <cert>16445</cert>
+    <state>LA</state>
+    <city>Cheneyville</city>
+    <bank_name>Farmers Bank of Cheneyville</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry119">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>11-Sep-09</closing_date>
+    <cert>13693</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Corus Bank, N.A.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry90">
+    <updated_date>9-Nov-09</updated_date>
+    <closing_date>6-Nov-09</closing_date>
+    <cert>19450</cert>
+    <state>MO</state>
+    <city>St. Louis</city>
+    <bank_name>Gateway Bank of St. Louis</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry203">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>30-Jan-09</closing_date>
+    <cert>26538</cert>
+    <state>FL</state>
+    <city>Ocala</city>
+    <bank_name>Ocala National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry125">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>28-Aug-09</closing_date>
+    <cert>27197</cert>
+    <state>CA</state>
+    <city>Ventura</city>
+    <bank_name>Affinity Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry230">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>30-May-08</closing_date>
+    <cert>12736</cert>
+    <state>MN</state>
+    <city>Staples</city>
+    <bank_name>First Integrity Bank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry223">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>5-Sep-08</closing_date>
+    <cert>34194</cert>
+    <state>NV</state>
+    <city>Henderson</city>
+    <bank_name>Silver State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry105">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>18321</cert>
+    <state>WI</state>
+    <city>Racine</city>
+    <bank_name>Bank of Elmwood</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry142">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Jul-09</closing_date>
+    <cert>32288</cert>
+    <state>OH</state>
+    <city>West Chester</city>
+    <bank_name>Peoples Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry216">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Nov-08</closing_date>
+    <cert>26870</cert>
+    <state>TX</state>
+    <city>Houston</city>
+    <bank_name>Franklin Bank, SSB</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry179">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>1-May-09</closing_date>
+    <cert>26535</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>Silverton Bank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry112">
+    <updated_date>20-Oct-09</updated_date>
+    <closing_date>2-Oct-09</closing_date>
+    <cert>11416</cert>
+    <state>MN</state>
+    <city>Spring Grove</city>
+    <bank_name>Jennings State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry28">
+    <updated_date>2-Apr-10</updated_date>
+    <closing_date>26-Mar-10</closing_date>
+    <cert>57060</cert>
+    <state>AZ</state>
+    <city>Phoenix</city>
+    <bank_name>Desert Hills Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry159">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>3644</cert>
+    <state>IL</state>
+    <city>Danville</city>
+    <bank_name>First National Bank of Danville</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry197">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>13-Feb-09</closing_date>
+    <cert>16500</cert>
+    <state>IL</state>
+    <city>Pittsfield</city>
+    <bank_name>Corn Belt Bank &amp; Trust Co.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry165">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>26-Jun-09</closing_date>
+    <cert>57893</cert>
+    <state>CA</state>
+    <city>Irvine</city>
+    <bank_name>MetroPacific Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry18">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>3735</cert>
+    <state>IL</state>
+    <city>Rockford</city>
+    <bank_name>Amcore Bank, National Association</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry102">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>32218</cert>
+    <state>AZ</state>
+    <city>Phoenix</city>
+    <bank_name>Bank USA, N.A.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry226">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>1-Aug-08</closing_date>
+    <cert>57523</cert>
+    <state>FL</state>
+    <city>Bradenton</city>
+    <bank_name>First Priority Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry255">
+    <updated_date>10-Feb-04</updated_date>
+    <closing_date>7-Sep-01</closing_date>
+    <cert>34248</cert>
+    <state>AR</state>
+    <city>Gravette</city>
+    <bank_name>Sinclair National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry53">
+    <updated_date>12-Feb-10</updated_date>
+    <closing_date>5-Feb-10</closing_date>
+    <cert>15448</cert>
+    <state>MN</state>
+    <city>Hancock</city>
+    <bank_name>1st American State Bank of Minnesota</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry81">
+    <updated_date>30-Apr-10</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>29776</cert>
+    <state>OH</state>
+    <city>Cleveland</city>
+    <bank_name>AmTrust Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry59">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>16480</cert>
+    <state>GA</state>
+    <city>Carrollton</city>
+    <bank_name>First National Bank of Georgia</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry145">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>8486</cert>
+    <state>GA</state>
+    <city>Gray</city>
+    <bank_name>Security Bank of Jones County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry91">
+    <updated_date>9-Nov-09</updated_date>
+    <closing_date>6-Nov-09</closing_date>
+    <cert>35074</cert>
+    <state>MN</state>
+    <city>Oakdale</city>
+    <bank_name>Prosperan Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry69">
+    <updated_date>5-Apr-10</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>28536</cert>
+    <state>CA</state>
+    <city>Santa Monica</city>
+    <bank_name>First Federal Bank of California, F.S.B.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry43">
+    <updated_date>9-Mar-10</updated_date>
+    <closing_date>5-Mar-10</closing_date>
+    <cert>34430</cert>
+    <state>UT</state>
+    <city>Ogden</city>
+    <bank_name>Centennial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry178">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>1-May-09</closing_date>
+    <cert>57563</cert>
+    <state>NJ</state>
+    <city>Ridgewood</city>
+    <bank_name>Citizens Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry215">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>7-Nov-08</closing_date>
+    <cert>23595</cert>
+    <state>CA</state>
+    <city>Los Angeles</city>
+    <bank_name>Security Pacific Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry113">
+    <updated_date>20-Oct-09</updated_date>
+    <closing_date>2-Oct-09</closing_date>
+    <cert>34824</cert>
+    <state>MI</state>
+    <city>Warren</city>
+    <bank_name>Warren Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry29">
+    <updated_date>31-Mar-10</updated_date>
+    <closing_date>26-Mar-10</closing_date>
+    <cert>34678</cert>
+    <state>GA</state>
+    <city>Cartersville</city>
+    <bank_name>Unity National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry196">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>13-Feb-09</closing_date>
+    <cert>57342</cert>
+    <state>OR</state>
+    <city>Beaverton</city>
+    <bank_name>Pinnacle Bank of Oregon</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry19">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>21521</cert>
+    <state>WA</state>
+    <city>Lynnwood</city>
+    <bank_name>City Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry164">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>26-Jun-09</closing_date>
+    <cert>57332</cert>
+    <state>CA</state>
+    <city>Los Angeles</city>
+    <bank_name>Mirae Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry103">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>35038</cert>
+    <state>IL</state>
+    <city>Westmont</city>
+    <bank_name>First DuPage Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry225">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>22-Aug-08</closing_date>
+    <cert>22728</cert>
+    <state>KS</state>
+    <city>Topeka</city>
+    <bank_name>Columbian Bank &amp; Trust</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry51">
+    <updated_date>24-Feb-10</updated_date>
+    <closing_date>19-Feb-10</closing_date>
+    <cert>3287</cert>
+    <state>TX</state>
+    <city>La Coste</city>
+    <bank_name>The La Coste National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry256">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>27-Jul-01</closing_date>
+    <cert>32646</cert>
+    <state>IL</state>
+    <city>Hinsdale</city>
+    <bank_name>Superior Bank, FSB</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry82">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>12080</cert>
+    <state>GA</state>
+    <city>Reidsville</city>
+    <bank_name>The Tattnall Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry52">
+    <updated_date>24-Feb-10</updated_date>
+    <closing_date>19-Feb-10</closing_date>
+    <cert>57586</cert>
+    <state>FL</state>
+    <city>Marco Island</city>
+    <bank_name>Marco Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry144">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Jul-09</closing_date>
+    <cert>9873</cert>
+    <state>OK</state>
+    <city>Altus</city>
+    <bank_name>First State Bank of Altus</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry58">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>5672</cert>
+    <state>FL</state>
+    <city>Immokalee</city>
+    <bank_name>Florida Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry68">
+    <updated_date>12-Jan-10</updated_date>
+    <closing_date>8-Jan-10</closing_date>
+    <cert>22977</cert>
+    <state>WA</state>
+    <city>Bellingham</city>
+    <bank_name>Horizon Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry158">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>57667</cert>
+    <state>TX</state>
+    <city>Dallas</city>
+    <bank_name>Millennium State Bank of Texas</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry42">
+    <updated_date>1-Apr-10</updated_date>
+    <closing_date>11-Mar-10</closing_date>
+    <cert>58071</cert>
+    <state>NY</state>
+    <city>New York</city>
+    <bank_name>LibertyPointe Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry92">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>6-Nov-09</closing_date>
+    <cert>30329</cert>
+    <state>MI</state>
+    <city>Detroit</city>
+    <bank_name>Home Federal Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry40">
+    <updated_date>17-Mar-10</updated_date>
+    <closing_date>12-Mar-10</closing_date>
+    <cert>58182</cert>
+    <state>FL</state>
+    <city>Orlando</city>
+    <bank_name>Old Southern Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry199">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>13-Feb-09</closing_date>
+    <cert>5431</cert>
+    <state>NE</state>
+    <city>Loup City</city>
+    <bank_name>Sherman County Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry177">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>1-May-09</closing_date>
+    <cert>35461</cert>
+    <state>UT</state>
+    <city>Layton</city>
+    <bank_name>America West Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry114">
+    <updated_date>13-Oct-09</updated_date>
+    <closing_date>25-Sep-09</closing_date>
+    <cert>57151</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>Georgian Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry214">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Nov-08</closing_date>
+    <cert>16490</cert>
+    <state>GA</state>
+    <city>Loganville</city>
+    <bank_name>Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry228">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>25-Jul-08</closing_date>
+    <cert>27011</cert>
+    <state>NV</state>
+    <city>Reno</city>
+    <bank_name>First National Bank of Nevada</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry100">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>23594</cert>
+    <state>CA</state>
+    <city>San Diego</city>
+    <bank_name>San Diego National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry167">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>26-Jun-09</closing_date>
+    <cert>35285</cert>
+    <state>GA</state>
+    <city>Newnan</city>
+    <bank_name>Neighborhood Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry253">
+    <updated_date>6-Nov-03</updated_date>
+    <closing_date>18-Jan-02</closing_date>
+    <cert>22002</cert>
+    <state>TX</state>
+    <city>Sierra Blanca</city>
+    <bank_name>Bank of Sierra Blanca</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry16">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>34658</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Citizens Bank and Trust Company of Chicago</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry128">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>21-Aug-09</closing_date>
+    <cert>32618</cert>
+    <state>TX</state>
+    <city>Austin</city>
+    <bank_name>Guaranty Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry200">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>6-Feb-09</closing_date>
+    <cert>22574</cert>
+    <state>CA</state>
+    <city>Merced</city>
+    <bank_name>County Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry57">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>16133</cert>
+    <state>MN</state>
+    <city>Hallock</city>
+    <bank_name>Marshall Bank, N.A.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry147">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>27367</cert>
+    <state>GA</state>
+    <city>Macon</city>
+    <bank_name>Security Bank of Bibb County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry55">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>23011</cert>
+    <state>CA</state>
+    <city>Los Angeles</city>
+    <bank_name>First Regional Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry93">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>6-Nov-09</closing_date>
+    <cert>22286</cert>
+    <state>GA</state>
+    <city>Sparta</city>
+    <bank_name>United Security Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry41">
+    <updated_date>1-Apr-10</updated_date>
+    <closing_date>12-Mar-10</closing_date>
+    <cert>27096</cert>
+    <state>NY</state>
+    <city>New York</city>
+    <bank_name>The Park Avenue Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry157">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>18390</cert>
+    <state>IL</state>
+    <city>Worth</city>
+    <bank_name>Founders Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry198">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>13-Feb-09</closing_date>
+    <cert>34563</cert>
+    <state>FL</state>
+    <city>Cape Coral</city>
+    <bank_name>Riverside Bank of the Gulf Coast</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry176">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>8-May-09</closing_date>
+    <cert>34843</cert>
+    <state>WA</state>
+    <city>Bremerton</city>
+    <bank_name>Westsound Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry166">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>26-Jun-09</closing_date>
+    <cert>9744</cert>
+    <state>MN</state>
+    <city>Pine City</city>
+    <bank_name>Horizon Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry254">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>11-Jan-02</closing_date>
+    <cert>24382</cert>
+    <state>FL</state>
+    <city>Miami</city>
+    <bank_name>Hamilton Bank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry227">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>25-Jul-08</closing_date>
+    <cert>57961</cert>
+    <state>CA</state>
+    <city>Newport Beach</city>
+    <bank_name>First Heritage Bank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry101">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>35291</cert>
+    <state>IL</state>
+    <city>Lemont</city>
+    <bank_name>Community Bank of Lemont</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry129">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Aug-09</closing_date>
+    <cert>22130</cert>
+    <state>AL</state>
+    <city>Birmingham</city>
+    <bank_name>CapitalSouth Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry17">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>22853</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Broadway Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry80">
+    <updated_date>8-Dec-09</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>10440</cert>
+    <state>IL</state>
+    <city>Aurora</city>
+    <bank_name>Benchmark Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry146">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>27048</cert>
+    <state>GA</state>
+    <city>Perry</city>
+    <bank_name>Security Bank of Houston County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry56">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>5702</cert>
+    <state>GA</state>
+    <city>Cornelia</city>
+    <bank_name>Community Bank and Trust</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry54">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>29-Jan-10</closing_date>
+    <cert>16730</cert>
+    <state>WA</state>
+    <city>Bainbridge Island</city>
+    <bank_name>American Marine Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry240">
+    <updated_date>9-Apr-08</updated_date>
+    <closing_date>14-Feb-04</closing_date>
+    <cert>31330</cert>
+    <state>NJ</state>
+    <city>Newark</city>
+    <bank_name>Dollar Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry115">
+    <updated_date>2-Apr-10</updated_date>
+    <closing_date>18-Sep-09</closing_date>
+    <cert>57068</cert>
+    <state>KY</state>
+    <city>Louisville</city>
+    <bank_name>Irwin Union Bank, F.S.B.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry94">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>18776</cert>
+    <state>TX</state>
+    <city>Houston</city>
+    <bank_name>North Houston Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry213">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Nov-08</closing_date>
+    <cert>30968</cert>
+    <state>CA</state>
+    <city>Newport Beach</city>
+    <bank_name>Downey Savings &amp; Loan</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry156">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>10-Jul-09</closing_date>
+    <cert>22754</cert>
+    <state>WY</state>
+    <city>Thermopolis</city>
+    <bank_name>Bank of Wyoming</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry76">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>11-Dec-09</closing_date>
+    <cert>4731</cert>
+    <state>KS</state>
+    <city>Overland Park</city>
+    <bank_name>SolutionsBank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry34">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>10054</cert>
+    <state>GA</state>
+    <city>Hiawassee</city>
+    <bank_name>Bank of Hiawassee</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry95">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>33782</cert>
+    <state>TX</state>
+    <city>Madisonville</city>
+    <bank_name>Madisonville State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry259">
+    <updated_date>17-Mar-05</updated_date>
+    <closing_date>14-Dec-00</closing_date>
+    <cert>3815</cert>
+    <state>IL</state>
+    <city>Metropolis</city>
+    <bank_name>National State Bank of Metropolis</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry209">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>12-Dec-08</closing_date>
+    <cert>11568</cert>
+    <state>TX</state>
+    <city>Sanderson</city>
+    <bank_name>Sanderson State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry44">
+    <updated_date>10-Mar-10</updated_date>
+    <closing_date>5-Mar-10</closing_date>
+    <cert>34976</cert>
+    <state>MD</state>
+    <city>Germantown</city>
+    <bank_name>Waterfield Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry66">
+    <updated_date>26-Jan-10</updated_date>
+    <closing_date>15-Jan-10</closing_date>
+    <cert>17522</cert>
+    <state>MN</state>
+    <city>St. Stephen</city>
+    <bank_name>St. Stephen State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry8">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>30005</cert>
+    <state>MI</state>
+    <city>Port Huron</city>
+    <bank_name>CF Bancorp</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry149">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>57430</cert>
+    <state>GA</state>
+    <city>Alpharetta</city>
+    <bank_name>Security Bank of North Fulton</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry24">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>57724</cert>
+    <state>FL</state>
+    <city>Clermont</city>
+    <bank_name>AmericanFirst Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry239">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>12-Mar-04</closing_date>
+    <cert>26838</cert>
+    <state>FL</state>
+    <city>Tallahassee</city>
+    <bank_name>Guaranty National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry86">
+    <updated_date>18-Nov-09</updated_date>
+    <closing_date>13-Nov-09</closing_date>
+    <cert>57914</cert>
+    <state>CA</state>
+    <city>San Clemente</city>
+    <bank_name>Pacific Coast National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry229">
+    <updated_date>1-Feb-10</updated_date>
+    <closing_date>11-Jul-08</closing_date>
+    <cert>29730</cert>
+    <state>CA</state>
+    <city>Pasadena</city>
+    <bank_name>IndyMac Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry186">
+    <updated_date>23-Dec-09</updated_date>
+    <closing_date>10-Apr-09</closing_date>
+    <cert>34881</cert>
+    <state>CO</state>
+    <city>Greeley</city>
+    <bank_name>New Frontier Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry172">
+    <updated_date>11-Mar-10</updated_date>
+    <closing_date>5-Jun-09</closing_date>
+    <cert>17309</cert>
+    <state>IL</state>
+    <city>Lincolnwood</city>
+    <bank_name>Bank of Lincolnwood</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry96">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>25222</cert>
+    <state>TX</state>
+    <city>Teague</city>
+    <bank_name>Citizens National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry219">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>10-Oct-08</closing_date>
+    <cert>13789</cert>
+    <state>IL</state>
+    <city>Eldred</city>
+    <bank_name>Meridian Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry188">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>27-Mar-09</closing_date>
+    <cert>22238</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>Omni National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry14">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>30600</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Lincoln Park Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry249">
+    <updated_date>18-Mar-05</updated_date>
+    <closing_date>28-Mar-02</closing_date>
+    <cert>34979</cert>
+    <state>MI</state>
+    <city>Shelby Township</city>
+    <bank_name>New Century Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry77">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>11-Dec-09</closing_date>
+    <cert>58399</cert>
+    <state>AZ</state>
+    <city>Mesa</city>
+    <bank_name>Valley Capital Bank, N.A.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry35">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>33989</cert>
+    <state>GA</state>
+    <city>Ellijay</city>
+    <bank_name>Appalachian Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry45">
+    <updated_date>10-Mar-10</updated_date>
+    <closing_date>5-Mar-10</closing_date>
+    <cert>9268</cert>
+    <state>IL</state>
+    <city>Normal</city>
+    <bank_name>Bank of Illinois</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry67">
+    <updated_date>26-Jan-10</updated_date>
+    <closing_date>15-Jan-10</closing_date>
+    <cert>34705</cert>
+    <state>IL</state>
+    <city>Antioch</city>
+    <bank_name>Town Community Bank &amp; Trust</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry7">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>58362</cert>
+    <state>MO</state>
+    <city>Creve Coeur</city>
+    <bank_name>Champion Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry148">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>57105</cert>
+    <state>GA</state>
+    <city>Woodstock</city>
+    <bank_name>Security Bank of North Metro</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry25">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>28886</cert>
+    <state>FL</state>
+    <city>Palatka</city>
+    <bank_name>First Federal Bank of North Florida</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry173">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>22-May-09</closing_date>
+    <cert>5757</cert>
+    <state>IL</state>
+    <city>Macomb</city>
+    <bank_name>Citizens National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry87">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>13-Nov-09</closing_date>
+    <cert>22427</cert>
+    <state>FL</state>
+    <city>Naples</city>
+    <bank_name>Orion Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry97">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>11677</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Park National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry187">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>10-Apr-09</closing_date>
+    <cert>34639</cert>
+    <state>NC</state>
+    <city>Wilmington</city>
+    <bank_name>Cape Fear Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry15">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>34821</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>New Century Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry189">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>20-Mar-09</closing_date>
+    <cert>4754</cert>
+    <state>KS</state>
+    <city>Paola</city>
+    <bank_name>TeamBank, NA</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry78">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>11-Dec-09</closing_date>
+    <cert>22846</cert>
+    <state>FL</state>
+    <city>Miami</city>
+    <bank_name>Republic Federal Bank, N.A.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry130">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Aug-09</closing_date>
+    <cert>57702</cert>
+    <state>GA</state>
+    <city>Newnan</city>
+    <bank_name>First Coweta Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry32">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>8221</cert>
+    <state>MN</state>
+    <city>Aurora</city>
+    <bank_name>State Bank of Aurora</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry64">
+    <updated_date>5-Apr-10</updated_date>
+    <closing_date>22-Jan-10</closing_date>
+    <cert>57147</cert>
+    <state>FL</state>
+    <city>Miami</city>
+    <bank_name>Premier American Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry83">
+    <updated_date>8-Dec-09</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>26290</cert>
+    <state>GA</state>
+    <city>Norcross</city>
+    <bank_name>First Security National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry46">
+    <updated_date>10-Mar-10</updated_date>
+    <closing_date>5-Mar-10</closing_date>
+    <cert>27126</cert>
+    <state>FL</state>
+    <city>Boca Raton</city>
+    <bank_name>Sun American Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry174">
+    <updated_date>9-Mar-10</updated_date>
+    <closing_date>22-May-09</closing_date>
+    <cert>35175</cert>
+    <state>IL</state>
+    <city>Champaign</city>
+    <bank_name>Strategic Capital Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry257">
+    <updated_date>18-Nov-02</updated_date>
+    <closing_date>3-May-01</closing_date>
+    <cert>6629</cert>
+    <state>OH</state>
+    <city>Malta</city>
+    <bank_name>Malta National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry26">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>34878</cert>
+    <state>MI</state>
+    <city>Sterling Heights</city>
+    <bank_name>Lakeside Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry237">
+    <updated_date>9-Apr-08</updated_date>
+    <closing_date>25-Jun-04</closing_date>
+    <cert>1249</cert>
+    <state>UT</state>
+    <city>Ephraim</city>
+    <bank_name>Bank of Ephraim</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry110">
+    <updated_date>21-Oct-09</updated_date>
+    <closing_date>16-Oct-09</closing_date>
+    <cert>23266</cert>
+    <state>CA</state>
+    <city>Bakersfield</city>
+    <bank_name>San Joaquin Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry217">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>31-Oct-08</closing_date>
+    <cert>57930</cert>
+    <state>FL</state>
+    <city>Bradenton</city>
+    <bank_name>Freedom Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry12">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>58429</cert>
+    <state>IL</state>
+    <city>Naperville</city>
+    <bank_name>Wheatland Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry184">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>17-Apr-09</closing_date>
+    <cert>33824</cert>
+    <state>NV</state>
+    <city>Elko</city>
+    <bank_name>Great Basin Bank of Nevada</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry98">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>30006</cert>
+    <state>CA</state>
+    <city>San Francisco</city>
+    <bank_name>Pacific National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry131">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-Aug-09</closing_date>
+    <cert>34682</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>ebank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry79">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>32583</cert>
+    <state>VA</state>
+    <city>Reston</city>
+    <bank_name>Greater Atlantic Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry33">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>24957</cert>
+    <state>AL</state>
+    <city>Fort Deposit</city>
+    <bank_name>First Lowndes Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry65">
+    <updated_date>3-Feb-10</updated_date>
+    <closing_date>15-Jan-10</closing_date>
+    <cert>1252</cert>
+    <state>UT</state>
+    <city>Kaysville</city>
+    <bank_name>Barnes Banking Company</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry84">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>4-Dec-09</closing_date>
+    <cert>34663</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>The Buckhead Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry47">
+    <updated_date>2-Mar-10</updated_date>
+    <closing_date>26-Feb-10</closing_date>
+    <cert>38129</cert>
+    <state>WA</state>
+    <city>Tacoma</city>
+    <bank_name>Rainier Pacific Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry9">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>31027</cert>
+    <state>PR</state>
+    <city>Mayaguez</city>
+    <bank_name>Westernbank Puerto Rico</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry258">
+    <updated_date>18-Feb-03</updated_date>
+    <closing_date>2-Feb-01</closing_date>
+    <cert>34264</cert>
+    <state>NH</state>
+    <city>Manchester</city>
+    <bank_name>First Alliance Bank &amp; Trust Co.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <dcterms:identifier>/work/data-gov/data/input/data.gov/1374/banklist.csv</dcterms:identifier>
+    <rdfs:seeAlso rdf:resource="http://data-gov.tw.rpi.edu/raw/1374/index.rdf#me"/>
+    <dcterms:description>generated by csv2rdf CSV2RDF (v1.1, 2009-01-28). http://data-gov.tw.rpi.edu/wiki/Source_Code_of_Data.gov_Wiki#Source_Code_of_Demos_and_Applications. </dcterms:description>
+    <dcterms:creator rdf:resource="http://tw.rpi.edu"/>
+    <dcterms:date>2010-05-10T21:40:53Z</dcterms:date>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry175">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>21-May-09</closing_date>
+    <cert>32247</cert>
+    <state>FL</state>
+    <city>Coral Gables</city>
+    <bank_name>BankUnited, FSB</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry85">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>20-Nov-09</closing_date>
+    <cert>58016</cert>
+    <state>FL</state>
+    <city>Fort Myers</city>
+    <bank_name>Commerce Bank of Southwest Florida</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry238">
+    <updated_date>9-Apr-08</updated_date>
+    <closing_date>19-Mar-04</closing_date>
+    <cert>26778</cert>
+    <state>NY</state>
+    <city>White Plains</city>
+    <bank_name>Reliance Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry13">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>23-Apr-10</closing_date>
+    <cert>10888</cert>
+    <state>IL</state>
+    <city>Peotone</city>
+    <bank_name>Peotone Bank and Trust Company</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry27">
+    <updated_date>13-Apr-10</updated_date>
+    <closing_date>9-Apr-10</closing_date>
+    <cert>34242</cert>
+    <state>SC</state>
+    <city>Myrtle Beach</city>
+    <bank_name>Beach First National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry99">
+    <updated_date>3-Nov-09</updated_date>
+    <closing_date>30-Oct-09</closing_date>
+    <cert>34659</cert>
+    <state>CA</state>
+    <city>Los Angeles</city>
+    <bank_name>California National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry218">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Oct-08</closing_date>
+    <cert>58241</cert>
+    <state>GA</state>
+    <city>Alpharetta</city>
+    <bank_name>Alpha Bank &amp; Trust</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry111">
+    <updated_date>20-Oct-09</updated_date>
+    <closing_date>2-Oct-09</closing_date>
+    <cert>57263</cert>
+    <state>CO</state>
+    <city>Pueblo</city>
+    <bank_name>Southern Colorado National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry185">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>17-Apr-09</closing_date>
+    <cert>8266</cert>
+    <state>MO</state>
+    <city>Sugar Creek</city>
+    <bank_name>American Sterling Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry48">
+    <updated_date>2-Mar-10</updated_date>
+    <closing_date>26-Feb-10</closing_date>
+    <cert>58352</cert>
+    <state>NV</state>
+    <city>Carson City</city>
+    <bank_name>Carson River Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry205">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>30-Jan-09</closing_date>
+    <cert>58001</cert>
+    <state>UT</state>
+    <city>Salt Lake City</city>
+    <bank_name>MagnetBank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry38">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>18806</cert>
+    <state>OH</state>
+    <city>Parma</city>
+    <bank_name>American National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry235">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>28-Sep-07</closing_date>
+    <cert>32575</cert>
+    <state>GA</state>
+    <city>Alpharetta</city>
+    <bank_name>NetBank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry122">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>4-Sep-09</closing_date>
+    <cert>27732</cert>
+    <state>IA</state>
+    <city>Sioux City</city>
+    <bank_name>Vantus Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry245">
+    <updated_date>18-Mar-05</updated_date>
+    <closing_date>8-Nov-02</closing_date>
+    <cert>9961</cert>
+    <state>TN</state>
+    <city>Alamo</city>
+    <bank_name>Bank of Alamo</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry162">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>11710</cert>
+    <state>IL</state>
+    <city>Winchester</city>
+    <bank_name>First State Bank of Winchester</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry132">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>14-Aug-09</closing_date>
+    <cert>34043</cert>
+    <state>NV</state>
+    <city>Las Vegas</city>
+    <bank_name>Community Bank of Nevada</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry10">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>32185</cert>
+    <state>PR</state>
+    <city>Hato Rey</city>
+    <bank_name>R-G Premier Bank of Puerto Rico</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry260">
+    <updated_date>17-Mar-05</updated_date>
+    <closing_date>13-Oct-00</closing_date>
+    <cert>21029</cert>
+    <state>HI</state>
+    <city>Honolulu</city>
+    <bank_name>Bank of Honolulu</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry71">
+    <updated_date>14-Jan-10</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>26820</cert>
+    <state>IL</state>
+    <city>Springfield</city>
+    <bank_name>Independent Bankers' Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry61">
+    <updated_date>2-Feb-10</updated_date>
+    <closing_date>22-Jan-10</closing_date>
+    <cert>20501</cert>
+    <state>WA</state>
+    <city>Seattle</city>
+    <bank_name>Evergreen Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry4">
+    <updated_date>7-May-10</updated_date>
+    <closing_date>7-May-10</closing_date>
+    <cert>14246</cert>
+    <state>FL</state>
+    <city>Bonifay</city>
+    <bank_name>The Bank of Bonifay</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry182">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Apr-09</closing_date>
+    <cert>34369</cert>
+    <state>MI</state>
+    <city>Farmington Hills</city>
+    <bank_name>Michigan Heritage Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry20">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>33493</cert>
+    <state>CA</state>
+    <city>San Rafael</city>
+    <bank_name>Tamalpais Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry39">
+    <updated_date>17-Mar-10</updated_date>
+    <closing_date>12-Mar-10</closing_date>
+    <cert>29561</cert>
+    <state>LA</state>
+    <city>Covington</city>
+    <bank_name>Statewide Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry206">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>23-Jan-09</closing_date>
+    <cert>33025</cert>
+    <state>CA</state>
+    <city>Redlands</city>
+    <bank_name>1st Centennial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry123">
+    <updated_date>3-May-10</updated_date>
+    <closing_date>4-Sep-09</closing_date>
+    <cert>20203</cert>
+    <state>IL</state>
+    <city>Oak Forest</city>
+    <bank_name>InBank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry63">
+    <updated_date>2-Feb-10</updated_date>
+    <closing_date>22-Jan-10</closing_date>
+    <cert>8265</cert>
+    <state>MO</state>
+    <city>Leeton</city>
+    <bank_name>Bank of Leeton</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry133">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>14-Aug-09</closing_date>
+    <cert>57645</cert>
+    <state>AZ</state>
+    <city>Phoenix</city>
+    <bank_name>Community Bank of Arizona</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry246">
+    <updated_date>11-Sep-06</updated_date>
+    <closing_date>30-Sep-02</closing_date>
+    <cert>33784</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>AmTrade International Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry163">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>12093</cert>
+    <state>IL</state>
+    <city>Clinton</city>
+    <bank_name>John Warner Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry49">
+    <updated_date>24-Feb-10</updated_date>
+    <closing_date>19-Feb-10</closing_date>
+    <cert>32423</cert>
+    <state>CA</state>
+    <city>La Jolla</city>
+    <bank_name>La Jolla Bank, FSB</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry11">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>27150</cert>
+    <state>PR</state>
+    <city>San Juan</city>
+    <bank_name>Eurobank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry72">
+    <updated_date>23-Dec-09</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>32276</cert>
+    <state>AL</state>
+    <city>Irondale</city>
+    <bank_name>New South Federal Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry3">
+    <updated_date>7-May-10</updated_date>
+    <closing_date>7-May-10</closing_date>
+    <cert>16476</cert>
+    <state>MN</state>
+    <city>Champlin</city>
+    <bank_name>Access Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry62">
+    <updated_date>2-Feb-10</updated_date>
+    <closing_date>22-Jan-10</closing_date>
+    <cert>32498</cert>
+    <state>NM</state>
+    <city>Santa Fe</city>
+    <bank_name>Charter Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry236">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>2-Feb-07</closing_date>
+    <cert>35353</cert>
+    <state>PA</state>
+    <city>Pittsburgh</city>
+    <bank_name>Metropolitan Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry183">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Apr-09</closing_date>
+    <cert>57943</cert>
+    <state>GA</state>
+    <city>Kennesaw</city>
+    <bank_name>American Southern Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry21">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>23876</cert>
+    <state>CA</state>
+    <city>Oakland</city>
+    <bank_name>Innovative Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry6">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>17792</cert>
+    <state>MO</state>
+    <city>Butler</city>
+    <bank_name>BC National Banks</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry160">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>9262</cert>
+    <state>IL</state>
+    <city>Elizabeth</city>
+    <bank_name>Elizabeth State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry233">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>25-Jan-08</closing_date>
+    <cert>24660</cert>
+    <state>MO</state>
+    <city>Kansas City</city>
+    <bank_name>Douglass National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry207">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>16-Jan-09</closing_date>
+    <cert>34959</cert>
+    <state>WA</state>
+    <city>Vancouver</city>
+    <bank_name>Bank of Clark County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry220">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>10-Oct-08</closing_date>
+    <cert>57654</cert>
+    <state>MI</state>
+    <city>Northville</city>
+    <bank_name>Main Street Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry109">
+    <updated_date>28-Oct-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>57959</cert>
+    <state>FL</state>
+    <city>Naples</city>
+    <bank_name>Partners Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry120">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>4-Sep-09</closing_date>
+    <cert>34875</cert>
+    <state>AZ</state>
+    <city>Flagstaff</city>
+    <bank_name>First State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry36">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>33535</cert>
+    <state>UT</state>
+    <city>Draper</city>
+    <bank_name>Advanta Bank Corp.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry74">
+    <updated_date>2-Apr-10</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>32167</cert>
+    <state>FL</state>
+    <city>Panama City</city>
+    <bank_name>Peoples First Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry150">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>57346</cert>
+    <state>GA</state>
+    <city>Suwanee</city>
+    <bank_name>Security Bank of Gwinnett County</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry134">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>14-Aug-09</closing_date>
+    <cert>34485</cert>
+    <state>AZ</state>
+    <city>Gilbert</city>
+    <bank_name>Union Bank, National Association</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry247">
+    <updated_date>9-Apr-08</updated_date>
+    <closing_date>27-Jun-02</closing_date>
+    <cert>29355</cert>
+    <state>IL</state>
+    <city>Chicago</city>
+    <bank_name>Universal Federal Savings Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry73">
+    <updated_date>8-Jan-10</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>1006</cert>
+    <state>MI</state>
+    <city>New Baltimore</city>
+    <bank_name>Citizens State Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry170">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>19-Jun-09</closing_date>
+    <cert>27837</cert>
+    <state>NC</state>
+    <city>Wilmington</city>
+    <bank_name>Cooperative Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry2">
+    <updated_date>7-May-10</updated_date>
+    <closing_date>7-May-10</closing_date>
+    <cert>57697</cert>
+    <state>AZ</state>
+    <city>Mesa</city>
+    <bank_name>Towne Bank of Arizona</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry22">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>26619</cert>
+    <state>MA</state>
+    <city>Lowell</city>
+    <bank_name>Butler Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry180">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Apr-09</closing_date>
+    <cert>34396</cert>
+    <state>ID</state>
+    <city>Ketchum</city>
+    <bank_name>First Bank of Idaho</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry88">
+    <updated_date>15-Dec-09</updated_date>
+    <closing_date>13-Nov-09</closing_date>
+    <cert>32267</cert>
+    <state>FL</state>
+    <city>Sarasota</city>
+    <bank_name>Century Bank, F.S.B.</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry191">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>20-Mar-09</closing_date>
+    <cert>18243</cert>
+    <state>GA</state>
+    <city>Stockbridge</city>
+    <bank_name>FirstCity Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry151">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>24-Jul-09</closing_date>
+    <cert>58065</cert>
+    <state>NY</state>
+    <city>Williamsville</city>
+    <bank_name>Waterford Village Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry234">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>4-Oct-07</closing_date>
+    <cert>16848</cert>
+    <state>OH</state>
+    <city>Lakeview</city>
+    <bank_name>Miami Valley Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry208">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>16-Jan-09</closing_date>
+    <cert>19733</cert>
+    <state>IL</state>
+    <city>Berkeley</city>
+    <bank_name>National Bank of Commerce</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry161">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>2-Jul-09</closing_date>
+    <cert>15302</cert>
+    <state>IL</state>
+    <city>Oregon</city>
+    <bank_name>Rock River Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry5">
+    <updated_date>4-May-10</updated_date>
+    <closing_date>30-Apr-10</closing_date>
+    <cert>22710</cert>
+    <state>WA</state>
+    <city>Everett</city>
+    <bank_name>Frontier Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry121">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>4-Sep-09</closing_date>
+    <cert>35030</cert>
+    <state>IL</state>
+    <city>Rolling Meadows</city>
+    <bank_name>Platinum Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry108">
+    <updated_date>28-Oct-09</updated_date>
+    <closing_date>23-Oct-09</closing_date>
+    <cert>57794</cert>
+    <state>GA</state>
+    <city>Lawrenceville</city>
+    <bank_name>American United Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry37">
+    <updated_date>23-Mar-10</updated_date>
+    <closing_date>19-Mar-10</closing_date>
+    <cert>58104</cert>
+    <state>GA</state>
+    <city>Duluth</city>
+    <bank_name>Century Security Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry75">
+    <updated_date>22-Dec-09</updated_date>
+    <closing_date>18-Dec-09</closing_date>
+    <cert>58315</cert>
+    <state>GA</state>
+    <city>Atlanta</city>
+    <bank_name>RockBridge Commercial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry135">
+    <updated_date>27-Apr-10</updated_date>
+    <closing_date>14-Aug-09</closing_date>
+    <cert>9609</cert>
+    <state>AL</state>
+    <city>Montgomery</city>
+    <bank_name>Colonial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry248">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>26-Jun-02</closing_date>
+    <cert>19183</cert>
+    <state>CT</state>
+    <city>Stamford</city>
+    <bank_name>Connecticut Bank of Commerce</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry171">
+    <updated_date>11-Mar-10</updated_date>
+    <closing_date>19-Jun-09</closing_date>
+    <cert>35251</cert>
+    <state>GA</state>
+    <city>Fayetteville</city>
+    <bank_name>Southern Community Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry181">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>24-Apr-09</closing_date>
+    <cert>32069</cert>
+    <state>CA</state>
+    <city>Calabasas</city>
+    <bank_name>First Bank of Beverly Hills</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry190">
+    <updated_date>23-Nov-09</updated_date>
+    <closing_date>20-Mar-09</closing_date>
+    <cert>18896</cert>
+    <state>CO</state>
+    <city>Colorado Springs</city>
+    <bank_name>Colorado National Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry1">
+    <updated_date>7-May-10</updated_date>
+    <closing_date>7-May-10</closing_date>
+    <cert>35517</cert>
+    <state>CA</state>
+    <city>San Diego</city>
+    <bank_name>1st Pacific Bank of California</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry23">
+    <updated_date>20-Apr-10</updated_date>
+    <closing_date>16-Apr-10</closing_date>
+    <cert>24067</cert>
+    <state>FL</state>
+    <city>Fort Pierce</city>
+    <bank_name>Riverside National Bank of Florida</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry89">
+    <updated_date>3-May-10</updated_date>
+    <closing_date>6-Nov-09</closing_date>
+    <cert>32469</cert>
+    <state>CA</state>
+    <city>San Francisco</city>
+    <bank_name>United Commercial Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#entry60">
+    <updated_date>2-Feb-10</updated_date>
+    <closing_date>22-Jan-10</closing_date>
+    <cert>22469</cert>
+    <state>OR</state>
+    <city>The Dalles</city>
+    <bank_name>Columbia River Bank</bank_name>
+    <rdf:type rdf:resource="http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#DataEntry"/>
+  </rdf:Description>
+</rdf:RDF>

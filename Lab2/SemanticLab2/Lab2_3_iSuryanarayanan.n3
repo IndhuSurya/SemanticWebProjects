@@ -1,0 +1,70 @@
+<http://utdallas/semclass#StanleyKubrick>
+        a       <http://utdallas/semclass#Person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "7-26-1928" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Stanley Kubrick" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Director" .
+
+<http://utdallas/semclass#PeterGeorge>
+        a       <http://utdallas/semclass#Person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "3-24-1924" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Peter George" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass#AnthonyBurgess>
+        a       <http://utdallas/semclass#Person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "2-25-1917" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Anthony Burgess" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass#DrStrangeLove>
+        a       <http://utdallas/semclass#movie> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1964" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Dr. Strange Love" ;
+        <http://utdallas/semclass#basedOn>
+                <http://utdallas/semclass#RedAlertBook> ;
+        <http://utdallas/semclass#director>
+                <http://utdallas/semclass#StanleyKubrick> .
+
+<http://utdallas/semclass#AClockworkOrange>
+        a       <http://utdallas/semclass#movie> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1971" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "A Clockwork Orange" ;
+        <http://utdallas/semclass#basedOn>
+                <http://utdallas/semclass#AClockworkOrangeBook> ;
+        <http://utdallas/semclass#director>
+                <http://utdallas/semclass#StanleyKubrick> .
+
+<http://utdallas/semclass#RedAlertBook>
+        a       <http://utdallas/semclass#Book> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1958" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Red Alert Book" ;
+        <http://purl.org/dc/elements/1.1/type>
+                "Nuclear warfare" ;
+        <http://utdallas/semclass#author>
+                <http://utdallas/semclass#PeterGeorge> .
+
+<http://utdallas/semclass#AClockworkOrangeBook>
+        a       <http://utdallas/semclass#Book> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1962" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "A Clockwork Orange Book" ;
+        <http://purl.org/dc/elements/1.1/type>
+                "Science Fiction" ;
+        <http://utdallas/semclass#author>
+                <http://utdallas/semclass#AnthonyBurgess> .

@@ -1,0 +1,1274 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://utdallas.semtech/class"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://utdallas.semtech/class">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://web.resource.org/cc/license"/>
+        <IRI>http://creativecommons.org/licenses/by-nc/2.0/</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2005-12-12</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Copyright © 2005 Norman Walsh. This work is licensed under the Creative Commons Attribution-NonCommercial License.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">This ontology attempts to model a subset of vCards
+in RDF using modern (circa 2005) RDF best practices. The subset selected
+is the same subset that the microformats community has adopted for use in
+hCard.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An OWL Ontology for vCards</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>http://norman.walsh.name/knows/who#norman-walsh</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Norm&apos;s attempt at a vCard/hCard RDF ontology.</Literal>
+    </Annotation>
+    <EquivalentClasses>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <Class IRI="sc:Person"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#country-name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#extended-address"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#locality"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#post-office-box"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#postal-code"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#region"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#street-address"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Geo"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Geo"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-unit"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <Class IRI="sc:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#additional-name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#given-name"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-prefix"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-suffix"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Organization"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#latitude"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Organization"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#longitude"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://nwalsh.com/rdf/vCard#rev"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:Man"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:Man"/>
+        <Class IRI="sc:Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:MarriedWoman"/>
+        <Class IRI="sc:Woman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:Person"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:UnmarriedWoman"/>
+        <Class IRI="sc:Woman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:Woman"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sc:Woman"/>
+        <Class IRI="sc:Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="sc:Man"/>
+        <Class IRI="sc:MarriedWoman"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="sc:Man"/>
+        <Class IRI="sc:UnmarriedWoman"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="sc:Man"/>
+        <Class IRI="sc:Woman"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="sc:MarriedWoman"/>
+        <Class IRI="sc:UnmarriedWoman"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+        <NamedIndividual IRI="sc:Karen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="sc:Karen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="sc:MarriedWoman"/>
+        <NamedIndividual IRI="sc:Karen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="sc:Person"/>
+        <NamedIndividual IRI="sc:Karen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="sc:Woman"/>
+        <NamedIndividual IRI="sc:Karen"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+        <NamedIndividual IRI="sc:Karen"/>
+        <Literal datatypeIRI="&xsd;string">Stephens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="sc:maidenName"/>
+        <NamedIndividual IRI="sc:Karen"/>
+        <Literal datatypeIRI="&xsd;string">Stephens</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#adr"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#agent"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#fax"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#geo"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#homeAdr"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#homeTel"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#key"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#logo"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#mobileEmail"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#mobileTel"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#n"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#org"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#personalEmail"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#photo"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#sound"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledAdr"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledEmail"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledTel"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#url"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workAdr"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workEmail"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workTel"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#fax"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#homeAdr"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#adr"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#homeTel"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#mobileEmail"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#mobileTel"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#personalEmail"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledAdr"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#adr"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledEmail"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledTel"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workAdr"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#adr"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workEmail"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workTel"/>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#agent"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#email"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#geo"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#key"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#logo"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#n"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#org"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#photo"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#sound"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#tel"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#url"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#adr"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#agent"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#geo"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Geo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#homeAdr"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#n"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#org"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#unlabeledAdr"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://nwalsh.com/rdf/vCard#workAdr"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </ObjectPropertyRange>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#additional-name"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#bday"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#category"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#class"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#country-name"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#extended-address"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#fn"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#given-name"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-prefix"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-suffix"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#label"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#latitude"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#locality"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#longitude"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#mailer"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#note"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-name"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-unit"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#post-office-box"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#postal-code"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#region"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#rev"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#role"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#sort-string"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#street-address"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#title"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#tz"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="sc:maidenName"/>
+    </EquivalentDataProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="sc:maidenName"/>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#additional-name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#country-name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#extended-address"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#given-name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-prefix"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-suffix"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#locality"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#post-office-box"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#postal-code"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#region"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#rev"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#street-address"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="sc:maidenName"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#additional-name"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#bday"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#category"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#class"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#country-name"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#extended-address"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#family-name"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#fn"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#given-name"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-prefix"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#honorific-suffix"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#label"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#latitude"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Geo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#locality"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#longitude"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Geo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#mailer"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#note"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-name"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#organization-unit"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#post-office-box"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#postal-code"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#region"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#rev"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#role"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#sort-string"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#street-address"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#title"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#tz"/>
+        <Class IRI="http://nwalsh.com/rdf/vCard#VCard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="sc:maidenName"/>
+        <Class IRI="sc:MarriedWoman"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#bday"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#latitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://nwalsh.com/rdf/vCard#longitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="sc:maidenName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resources that are vCard (postal) addresses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vCard Address Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Geo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resources that are vCard geographic locations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Geo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vCard Geographic Location Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resources that are vCard personal names.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vCard Name Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Organization</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resources that are vCard organizations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#Organization</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vCard Organization Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#VCard</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resources that are vCards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#VCard</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">vCard Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#additional-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An additional part of a person&apos;s name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#additional-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">additional name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#adr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A postal or street address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#adr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#agent</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A person that acts as one&apos;s agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#agent</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#bday</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The birthday of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#bday</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">birthday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#category</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A category of a vCard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#category</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#class</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A class (e.g., public, private, etc.) of a vCard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#class</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#country-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The country of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#country-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#email</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An email address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#email</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#extended-address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The extended address of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#extended-address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">extended</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#family-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A family name part of a person&apos;s name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#family-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">family name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#fax</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A fax number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#fax</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Fax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#fn</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A formatted name of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#fn</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">formatted name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#geo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A geographic location associated with a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#geo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">geographic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#given-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A given name part of a person&apos;s name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#given-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">given name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#homeAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A home address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#homeAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Home address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#homeTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A home phone number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#homeTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Home phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#honorific-prefix</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An honorific prefix part of a person&apos;s name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#honorific-prefix</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">honorific prefix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#honorific-suffix</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An honorific suffix part of a person&apos;s name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#honorific-suffix</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">honorific suffix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#key</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A key (e.g, PKI key) of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#key</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#label</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The formatted version of a postal address (a string with embedded line breaks, punctuation, etc.).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#label</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">address label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#latitude</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The latitude of a geographic location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#latitude</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">latitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#locality</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The locality (e.g., city) of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#locality</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">locality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#logo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A logo associated with a person or their organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#logo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">logo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#longitude</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The longitude of a geographic location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#longitude</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">longitude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mailer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A mailer associated with a vCard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mailer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">mailer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mobileEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A mobile email address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mobileEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Mobile email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mobileTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A mobile phone number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#mobileTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Mobile phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#n</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The components of the name of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#n</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#note</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Notes about a person on a vCard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#note</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">notes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#org</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An organization associated with a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#org</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#organization-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The name of an organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#organization-name</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#organization-unit</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The name of a unit within an organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#organization-unit</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#personalEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An email address unaffiliated with any particular organization or employer; a personal email address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#personalEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Personal email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#photo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A photograph of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#photo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">photo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#post-office-box</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The post office box of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#post-office-box</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">P.O. Box</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#postal-code</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The postal code (e.g., U.S. ZIP code) of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#postal-code</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">postal code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The region (e.g., state or province) of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#rev</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The timestamp of a revision of a vCard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#rev</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">revision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#role</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A role a person plays within an organization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#role</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#sort-string</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A version of a person&apos;s name suitable for collation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#sort-string</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#sound</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A sound (e.g., a greeting or pronounciation) of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#sound</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#street-address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The street address of a postal address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#street-address</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">street</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#tel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A telephone number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#tel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#title</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A person&apos;s title.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#title</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#tz</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A timezone associated with a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#tz</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">timezone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An (explicitly) unlabeled address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An (explicitly) unlabeled email address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An (explicitly) unlabeled phone number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#unlabeledTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#url</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A URL associated with a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#url</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">url</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A work address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workAdr</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Work address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A work email address of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workEmail</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Work email</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A work phone number of a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://nwalsh.com/rdf/vCard#workTel</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Work phone</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

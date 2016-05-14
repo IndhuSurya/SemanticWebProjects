@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+
+		var sparql = "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+					"select ?o (COUNT(?o) AS ?closed_count) (max(xsd:integer(?a)) as ?asset) where {" +
+					"?s <http://data-gov.tw.rpi.edu/vocab/p/1374/state> ?o ." +
+					"?s <http://data-gov.tw.rpi.edu/vocab/p/1374/closing_date> ?d." +
+					"?t <http://data-gov.tw.rpi.edu/vocab/p/1193/state> ?o ." +
+					"?t <http://data-gov.tw.rpi.edu/vocab/p/1193/total_assets> ?a." +
+					"FILTER (regex(str(?d), \"Apr\") || regex(str(?d), \"May\")||regex(str(?d), \"Jun\")). " +
+					"FILTER (regex(substr(?d, strlen(?d)-1, strlen(?d)), \"09\"))." +
+					"} group by ?o order by ?o"; 
+
+		var queryurl2 = "http://localhost:3030/myDataset/query?query=" + encodeURIComponent(sparql) + "&output=xml";
+		var xmlhttp = new XMLHttpRequest (); // ajax object instantiation
+		xmlhttp.open ('GET', queryurl2, false);
+
+		// probably need these headers
+		xmlhttp.setRequestHeader ('Content-type', 'application/x-www-form-urlencoded');
+		xmlhttp.setRequestHeader ("Accept", "application/sparql-results+xml");
+
+		// Set up callback to get the response asynchronously.
+		xmlhttp.onreadystatechange = function () {
+			if (xmlhttp.readyState == 4) {
+				if (xmlhttp.status == 200) {
+					// results are in a string in xmlhttp.responseText but we can't return it from this sub-function
+					responseStr = xmlhttp.responseText;
+				}
+				else {
+					// Some kind of error occurred.
+					
+				}
+			}
+		}
+		
+		// Send the query to the endpoint.
+		xmlhttp.send ();
+		
+		// Pattern Extraction using Regular Expression
+		var patternStr = "<binding name=\"o\">\\s*<literal>([A-Z]{2})<\/literal>" +
+						"\\s*<\/binding>\\s*<binding name=\"closed_count\">\\s*<literal datatype=\"http:\/\/www.w3.org\/2001\/XMLSchema#integer\">" +
+						"([0-9]{1})<\/literal>\\s*<\/binding>\\s*<binding name=\"asset\">\\s*<literal datatype=\"http:\/\/www.w3.org\/2001\/XMLSchema#integer\">" +
+						"([0-9]{1,8})<\/literal>\\s*<\/binding>";
+
+		var patt=new RegExp(patternStr, "g");
+		var res = "";
+
+		var resultant = [];
+		var data = new google.visualization.DataTable();
+		data.addColumn('string','State');
+		data.addColumn('number', 'Total_Assets');
+		data.addColumn('number', 'Closed_Banks');
+		data.addRows(6);		
+		var i = 0;
+	
+		while ((res = patt.exec(responseStr)) !== null) {
+			data.setValue(i, 0, res[1]);
+			data.setValue(i, 1, res[3]);
+			data.setValue(i, 2, res[2]);
+			var arr = new Array(3);
+			arr[0] = res[1];
+			arr[1] = res[3];
+			arr[2] = res[3];
+			i=i+1;
+
+		} //end while
+
+	// Initializing Draw Parameters
+        var options = {
+		
+	width: 900,
+	height: 500,
+            chart: {
+            title: 'Asset and Failure Trends (April 2009 - June 2009)',
+            subtitle: 'Total Assets on the left, #Closed banks on the right'
+          },
+          series: {
+	    // Bind series 0 to an axis named 'distance'.
+            0: { axis: 'Assets' }, 
+	    // Bind series 1 to an axis named 'brightness
+            1: { axis: 'Failed_Banks' } '.
+          },
+          axes: {
+            y: {
+	     // Left y-axis.
+              Assets: {label: 'total assets'}, 
+	     // Right y-axis.
+              Failed_Banks: {side: 'right', label: 'closed bank count'} 
+            }
+          }
+        
+        };
+		
+	
+      var chart = new google.charts.Bar(document.getElementById('dual_y_div'));
+      chart.draw(data, options);
+    };
+    </script>
+  </head>
+  <body>
+    <div id="dual_y_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>

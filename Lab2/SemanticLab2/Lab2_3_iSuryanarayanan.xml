@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass#">
+  <j.0:movie rdf:about="http://utdallas/semclass#DrStrangeLove">
+    <dc:title>Dr. Strange Love</dc:title>
+    <dc:date>1964</dc:date>
+    <j.0:director>
+      <j.0:Person rdf:about="http://utdallas/semclass#StanleyKubrick">
+        <vcard:FN>Stanley Kubrick</vcard:FN>
+        <vcard:BDAY>7-26-1928</vcard:BDAY>
+        <vcard:ROLE>Director</vcard:ROLE>
+      </j.0:Person>
+    </j.0:director>
+    <j.0:basedOn>
+      <j.0:Book rdf:about="http://utdallas/semclass#RedAlertBook">
+        <dc:title>Red Alert Book</dc:title>
+        <dc:date>1958</dc:date>
+        <dc:type>Nuclear warfare</dc:type>
+        <j.0:author>
+          <j.0:Person rdf:about="http://utdallas/semclass#PeterGeorge">
+            <vcard:FN>Peter George</vcard:FN>
+            <vcard:BDAY>3-24-1924</vcard:BDAY>
+            <vcard:ROLE>Author</vcard:ROLE>
+          </j.0:Person>
+        </j.0:author>
+      </j.0:Book>
+    </j.0:basedOn>
+  </j.0:movie>
+  <j.0:movie rdf:about="http://utdallas/semclass#AClockworkOrange">
+    <dc:title>A Clockwork Orange</dc:title>
+    <dc:date>1971</dc:date>
+    <j.0:director rdf:resource="http://utdallas/semclass#StanleyKubrick"/>
+    <j.0:basedOn>
+      <j.0:Book rdf:about="http://utdallas/semclass#AClockworkOrangeBook">
+        <dc:title>A Clockwork Orange Book</dc:title>
+        <dc:date>1962</dc:date>
+        <dc:type>Science Fiction</dc:type>
+        <j.0:author>
+          <j.0:Person rdf:about="http://utdallas/semclass#AnthonyBurgess">
+            <vcard:FN>Anthony Burgess</vcard:FN>
+            <vcard:BDAY>2-25-1917</vcard:BDAY>
+            <vcard:ROLE>Author</vcard:ROLE>
+          </j.0:Person>
+        </j.0:author>
+      </j.0:Book>
+    </j.0:basedOn>
+  </j.0:movie>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+#Query 1
+SELECT ?s WHERE { ?s
+<http://www.w3.org/2001/vcard-rdf/3.0#FN>
+'John Smith'
+}
+
+#Query 2
+SELECT DISTINCT ?o WHERE {?s <http://somewhere/peopleInfo#age> ?o.}
+
+#Query 3
+SELECT DISTINCT ?o1 ?o2 WHERE {
+?s <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?o1.
+?s <http://somewhere/peopleInfo#age> ?o2.
+}
+
+#Query 4
+SELECT ?o1 ?o2 WHERE {
+?s <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?o1.
+?s <http://somewhere/peopleInfo#age> '23'.
+?s <http://somewhere/peopleInfo#age> ?o2.
+}
+
+#Query 5
+SELECT DISTINCT ?o3 
+		WHERE {?s <http://somewhere/peopleInfo#age> ?o1.
+		       ?s <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?o2.
+		       ?s <http://www.w3.org/2001/vcard-rdf/3.0#N> _:bn.
+		        _:bn <http://www.w3.org/2001/vcard-rdf/3.0#Given> ?o3.}

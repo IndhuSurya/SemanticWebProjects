@@ -1,0 +1,36 @@
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Dr. Keven  L. Ates " .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "atescomp@utdallas.edu" .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "1901-01-01 " .
+<http://utdallas/semclass#KevenAtes> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "Senior Lecturer " .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace> <http://xmlns.com/foaf/0.1/maker> <file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace> <http://xmlns.com/foaf/0.1/primaryTopic> <file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/name> "Indhumadhi Suryanarayanan" .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/title> "Ms" .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/givenname> "Indhumadhi" .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/family_name> "Suryanarayanan" .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/nick> "Indhu" .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:ixs150630@utdallas.edu> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.utdallas.edu/> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/depiction> <http://jindal.utdallas.edu/the-utd-top-100-business-school-research-rankings/images/utd_logo.png> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/phone> <tel:4696643674> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.utdallas.edu/current/> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <file:///D:/Workspace/Projects/JENASemantic/I am student at Te University of Texas at Dallas> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <file:///D:/Workspace/Projects/JENASemantic/Kendriya Vidhyalaya> .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D54204c8bX3A1528063a32aX3AX2D7fff .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D54204c8bX3A1528063a32aX3AX2D7ffe .
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> <http://xmlns.com/foaf/0.1/knows> _:BX2D54204c8bX3A1528063a32aX3AX2D7ffd .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7fff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7fff <http://xmlns.com/foaf/0.1/name> "ABCDE" .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7fff <http://xmlns.com/foaf/0.1/mbox> <mailto:abcde@gmail.com> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7fff <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.utdallas.edu/faculty/> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffe <http://xmlns.com/foaf/0.1/name> "FEGHIJ" .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffe <http://xmlns.com/foaf/0.1/mbox> <mailto:feghi@utdallas.edu> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffe <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://alumni.utdallas.edu/> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffd <http://xmlns.com/foaf/0.1/name> "KLMNOPQRST" .
+_:BX2D54204c8bX3A1528063a32aX3AX2D7ffd <http://xmlns.com/foaf/0.1/mbox> <mailto:klmn@gmail.com> .

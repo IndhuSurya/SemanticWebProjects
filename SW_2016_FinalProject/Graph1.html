@@ -1,0 +1,153 @@
+<html>
+<head>
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.charts.load('current', {
+		'packages' : [ 'line' ]
+	});
+	google.charts.setOnLoadCallback(drawStuff);
+
+	function drawStuff() {
+		
+		//The SPARQL Query 
+		var sparql = "PREFIX d1374: <http://data-gov.tw.rpi.edu/vocab/p/1374/> SELECT  ?year ?state (count(?bank) as ?count) WHERE { ?subject d1374:state ?state. ?subject d1374:bank_name ?bank. ?subject d1374:closing_date ?closingDate. bind(if (STRLEN( STR(?closingDate)) =9, SUBSTR(STR(?closingDate), 8, 2), SUBSTR(STR(?closingDate), 7, 2)) as ?year ) } GROUP BY ?year ?state ORDER BY ?year ?state";
+		var queryurl2 = "http://localhost:3030/myDataset/query?query="
+				+ encodeURIComponent(sparql) + "&output=xml";
+		
+		// ajax object instantiation
+		var xmlhttp = new XMLHttpRequest(); 
+		xmlhttp.open('GET', queryurl2, false);
+		
+		// probably need these headers
+		xmlhttp.setRequestHeader('Content-type',
+				'application/x-www-form-urlencoded');
+		xmlhttp.setRequestHeader("Accept", "application/sparql-results+xml");
+		
+		// Set up callback to get the response asynchronously.
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4) {
+				if (xmlhttp.status == 200) {
+					
+					// results are in a string in xmlhttp.responseText but we can't return it from this sub-function
+					responseStr = xmlhttp.responseText;
+				
+				} else {
+				
+					// Handling Some kind of error occurrance.
+					alert("Sparql query error: " + xmlhttp.status + " "
+							+ xmlhttp.responseText);
+				}
+			}
+		}
+
+		// Send the query to the endpoint.
+		xmlhttp.send();
+
+		//Pattern extraction using Regular Expression
+		var patternStr = "<binding name=\"year\">\\s*<literal[^>]*>([0-9]{2})<\/literal>\\s*<\/binding>"
+				+ "\\s*<binding name=\"state\">\\s*<literal[^>]*>([A-Z]{2})<\/literal>\\s*<\/binding>"
+				+ "\\s*<binding name=\"count\">\\s*<literal datatype=\"http:\/\/www.w3.org\/2001\/XMLSchema#integer\">\([0-9]{1,2})<\/literal>\\s*<\/binding>";
+
+		var patt = new RegExp(patternStr, "g");
+		var res = "";
+		var resultant_obj = {};
+		var temp_arr_for_states = new Array();
+		var temp = new Array();
+		var temp_arr_for_years = new Array();
+		var temp_year = new Array();
+		var i = 0
+		var l = 0;
+		while ((res = patt.exec(responseStr)) !== null) {
+			if (!temp_arr_for_years[res[1]]) {
+				resultant_obj[res[1]] = {};
+				temp_arr_for_years[res[1]] = res[1];
+				temp_year[l] = res[1];
+				l++;
+			}
+			if (!temp_arr_for_states[res[2]]) {
+				//resultant_obj[res[1]][res[2]] = res[3];
+				temp_arr_for_states[res[2]] = res[2];
+				//alert(resultant_obj[res[1]][res[2]]);
+				temp[i] = res[2];
+				i++;
+			}
+			resultant_obj[res[1]][res[2]] = Number(res[3]);
+		} //end while
+
+			
+		//Loading the visualization datatable
+		var data = new google.visualization.DataTable();
+		data.addColumn('number', 'Years(2000-2010)');
+		data.addColumn('number', 'CA');
+		data.addColumn('number', 'FL');
+		data.addColumn('number', 'MN');
+		data.addColumn('number', 'GA');
+		data.addColumn('number', 'IL');
+		var overall = new Array();
+		for (var j = 0; j < temp_year.length; j++) {
+			var array = new Array();
+			var year_holder = temp_year[j];
+			array.push(Number(temp_year[j]));
+			for (var k = 0; k < temp.length; k++) {
+				if (!resultant_obj[year_holder][temp[k]]) {
+					resultant_obj[year_holder][temp[k]] = 0;
+					array.push(0);
+				} else {
+					array.push(resultant_obj[year_holder][temp[k]]);
+				}
+				
+			}
+			overall.push(array);
+		}
+		data.addRows([
+				[ 0, resultant_obj["00"]["CA"], resultant_obj["00"]["FL"],
+						resultant_obj["00"]["MN"], resultant_obj["00"]["GA"],
+						resultant_obj["00"]["IL"] ],
+				[ 1, resultant_obj["01"]["CA"], resultant_obj["01"]["FL"],
+						resultant_obj["01"]["MN"], resultant_obj["01"]["GA"],
+						resultant_obj["01"]["IL"] ],
+				[ 2, resultant_obj["02"]["CA"], resultant_obj["02"]["FL"],
+						resultant_obj["02"]["MN"], resultant_obj["02"]["GA"],
+						resultant_obj["02"]["IL"] ],
+				[ 3, resultant_obj["03"]["CA"], resultant_obj["03"]["FL"],
+						resultant_obj["03"]["MN"], resultant_obj["03"]["GA"],
+						resultant_obj["03"]["IL"] ],
+				[ 4, resultant_obj["04"]["CA"], resultant_obj["04"]["FL"],
+						resultant_obj["04"]["MN"], resultant_obj["04"]["GA"],
+						resultant_obj["04"]["IL"] ],
+				[ 7, resultant_obj["07"]["CA"], resultant_obj["07"]["FL"],
+						resultant_obj["07"]["MN"], resultant_obj["07"]["GA"],
+						resultant_obj["07"]["IL"] ],
+				[ 8, resultant_obj["08"]["CA"], resultant_obj["08"]["FL"],
+						resultant_obj["08"]["MN"], resultant_obj["08"]["GA"],
+						resultant_obj["08"]["IL"] ],
+				[ 9, resultant_obj["09"]["CA"], resultant_obj["09"]["FL"],
+						resultant_obj["09"]["MN"], resultant_obj["09"]["GA"],
+						resultant_obj["09"]["IL"] ],
+				[ 10, resultant_obj["10"]["CA"], resultant_obj["10"]["FL"],
+						resultant_obj["10"]["MN"], resultant_obj["10"]["GA"],
+						resultant_obj["10"]["IL"] ] ]);
+		
+		//Initializing the draw() parameters
+		var options = {
+		width: 900,
+		height: 500,
+        
+			chart : {
+				title : '# Closed banks For Different States',
+				subtitle : 'from 2000 to 2010'
+			},
+        		};
+
+		var chart = new google.charts.Line(document
+				.getElementById('line_top_x'));
+
+		chart.draw(data, options);
+	}
+</script>
+</head>
+<body>
+	<div id="line_top_x"></div>
+</body>
+</html>

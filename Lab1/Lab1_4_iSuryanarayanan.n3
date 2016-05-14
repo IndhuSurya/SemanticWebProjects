@@ -1,0 +1,50 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://utdallas/semclass#KevenAtes>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "1901-01-01 " ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "atescomp@utdallas.edu" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Dr. Keven  L. Ates " ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "Senior Lecturer " .
+
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> ;
+        foaf:primaryTopic     <file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me> .
+
+<file:///D:/Workspace/Projects/JENASemantic/defaultNameSpace#me>
+        a                       foaf:Person ;
+        foaf:depiction          <http://jindal.utdallas.edu/the-utd-top-100-business-school-research-rankings/images/utd_logo.png> ;
+        foaf:family_name        "Suryanarayanan" ;
+        foaf:givenname          "Indhumadhi" ;
+        foaf:homepage           <http://www.utdallas.edu/> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <http://www.utdallas.edu/faculty/> ;
+                                  foaf:mbox     <mailto:abcde@gmail.com> ;
+                                  foaf:name     "ABCDE"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <https://alumni.utdallas.edu/> ;
+                                  foaf:mbox     <mailto:feghi@utdallas.edu> ;
+                                  foaf:name     "FEGHIJ"
+                                ] ;
+        foaf:knows              [ a          foaf:Person ;
+                                  foaf:mbox  <mailto:klmn@gmail.com> ;
+                                  foaf:name  "KLMNOPQRST"
+                                ] ;
+        foaf:mbox               <mailto:ixs150630@utdallas.edu> ;
+        foaf:name               "Indhumadhi Suryanarayanan" ;
+        foaf:nick               "Indhu" ;
+        foaf:phone              <tel:4696643674> ;
+        foaf:schoolHomepage     <file:///D:/Workspace/Projects/JENASemantic/Kendriya Vidhyalaya> ;
+        foaf:title              "Ms" ;
+        foaf:workInfoHomepage   <file:///D:/Workspace/Projects/JENASemantic/I am student at Te University of Texas at Dallas> ;
+        foaf:workplaceHomepage  <http://www.utdallas.edu/current/> .

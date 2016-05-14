@@ -1,0 +1,5 @@
+STEPS:
+
+1)set up your local host for fuseki.
+2)load the datasets 1193 and 1374 in this folder.
+3)Open the two HTML files. 
